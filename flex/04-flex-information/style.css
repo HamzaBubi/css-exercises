@@ -24,3 +24,48 @@ img {
   justify-content: center;
   background: #eee;
 }
+.title{
+  text-align: center;
+}
+.content{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+ margin: 0 230px;
+}
+.box-one{
+  display: flex;
+  flex-direction: column;
+
+}
+.box-two{
+  display: flex;
+  flex-direction: column;
+
+}
+.box-three{
+  display: flex;
+  flex-direction: column;
+
+}
+.box-four{
+  display: flex;
+  flex-direction: column;
+
+}
+img, .text{
+  padding-left: 50px;
+  gap:30px;
+  justify-content: center;
+ 
+}
+img{
+  align-self: center;
+}
+.text{
+width: 200px;
+text-align: center;
+}
