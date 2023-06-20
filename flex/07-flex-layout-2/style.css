@@ -5,25 +5,65 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 10px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
-  background: royalblue;
+  background: rgb(66, 96, 185);
   box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  min-width: 300px;
 }
 
 .card {
-  border: 1px solid #eee;
+  border: 1px solid #8f8c8c;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  height: 360px;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  flex-shrink: 1;
+}
+.content{
+  display: flex;
+ 
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  padding-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: #eee;
+}
+.textbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.website{
+display: flex;
+flex-direction: column;
 }
